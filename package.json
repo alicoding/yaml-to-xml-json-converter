@@ -1,5 +1,5 @@
 {
-  "name": "yaml-to-xml-json-converter",
+  "name": "yamltoxmljson",
   "version": "0.0.1",
   "description": "convert YAML to XML or JSON",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alicoding/yaml-to-xml-json-converter.git"
+    "url": "git+https://github.com/alicoding/yamltoxmljson.git"
   },
   "keywords": [
     "yaml",
