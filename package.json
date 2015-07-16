@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "description": "convert YAML to XML or JSON",
   "bin": {
-    "transifex": "./bin/index.js"
+    "ymltoxmljson": "./bin/index.js"
   },
   "preferGlobal": true,
   "scripts": {
