@@ -1,6 +1,6 @@
 {
   "name": "yamltoxmljson",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "convert YAML to XML or JSON",
   "bin": {
     "transifex": "./bin/index.js"
