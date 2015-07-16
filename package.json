@@ -1,6 +1,6 @@
 {
   "name": "yaml-intl-xml-json-converter",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "convert YAML to XML or JSON for internationalization",
   "bin": {
     "yamlconvert": "./bin/index.js"
