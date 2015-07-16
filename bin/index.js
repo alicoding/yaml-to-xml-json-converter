@@ -26,7 +26,7 @@ function getMessages() {
 }
 
 function processMessageFiles(locales) {
-	return Promise.all(locales.map(function (locale) {console.log(config.src)
+	return Promise.all(locales.map(function (locale) {
 		var messagesFile = path.join(process.cwd(), config.src, locale) + '.yaml';
 		return readFile(messagesFile, 'utf8').then(function (contents) {
 			return {
