@@ -1,9 +1,9 @@
 {
-  "name": "yamltoxmljson",
+  "name": "yaml-intl-xml-json-converter",
   "version": "0.0.6",
-  "description": "convert YAML to XML or JSON",
+  "description": "convert YAML to XML or JSON for internationalization",
   "bin": {
-    "yamltoxmljson": "./bin/index.js"
+    "yamlconvert": "./bin/index.js"
   },
   "preferGlobal": true,
   "scripts": {
@@ -17,7 +17,8 @@
     "yaml",
     "json",
     "xml",
-    "converter"
+    "converter",
+    "intl"
   ],
   "author": "Ali Al Dallal",
   "license": "MIT",

@@ -41,9 +41,9 @@ function writeFile(entries) {
 	entries.reduce(function (prevEntry, entry) {
 		var content;
 		if(type === 'xml') {
-			content = toXml(entry.messages);
+			content = toXml(entry.messages[entry.locale]);
 		} else {
-			content = JSON.stringify(entry.messages, null, 2)
+			content = JSON.stringify(entry.messages[entry.locale], null, 2)
 		}
 		require('mkdirp').sync(path.join(process.cwd(), config.dest));
 		write(path.join(process.cwd(), config.dest, entry.locale + '.' + type), content, 'utf-8' )

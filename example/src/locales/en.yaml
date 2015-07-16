@@ -1,2 +1,4 @@
-secure: Secure
-amount: Amount
+---
+en:
+  secure: Secure
+  amount: Amount

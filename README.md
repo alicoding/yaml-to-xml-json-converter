@@ -26,3 +26,21 @@ usage: yamltoxmljson ./config.json
 }
 
 ```
+
+### YAML file example
+```yaml
+---
+en:
+  secure: Secure
+  amount: Amount
+```
+
+will write a JSON file like this:
+
+`en.json`
+``` json
+{
+  "secure": "Secure",
+  "amount": "Amount"
+}
+```
